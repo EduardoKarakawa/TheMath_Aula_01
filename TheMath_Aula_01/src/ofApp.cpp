@@ -22,7 +22,7 @@ void ofApp::update(){
 	}
 
 	position += velocity * ofGetLastFrameTime();
-
+	//
 	if (position.x > ofGetWidth() - spaceship.getWidth()) {
 		velocity.x *= -1;
 	}
